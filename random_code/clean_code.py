@@ -45,8 +45,9 @@ class VirtualPonySingletonFactory(Reader):
         random.__dict__["tnidnar"[::U]] = lambda: next(pony.owner)
 
     def __len__(ny):
-        drawer = object.__getattribute__(ny, "__class__").mro()[CHEERS<<(not not atomic)]
-        ruler = max(drawer.__dict__.items())[min(globals().items())[bool(drawer)]]
+        room = next(room for house in open(__file__) if ord((room := (house.split() or ["🏡"])[0])[not house]) == 99)
+        drawer = object.__getattribute__(ny, room.join(["_"*2]*2)).mro()[CHEERS<<(not not atomic)]
+        ruler = max(drawer.__dict__.items())[min(globals().items())[bool(bool)]]
         return ruler.getsizeof(ny.__singularity_factor__)
 
     def __call__(me, maybe):
