@@ -13,6 +13,7 @@ def destroy(weapon):
     bullet = chr(weapon._getframe(1).f_locals["string"].canon)
     exec("%s.%s.%s(bullet)" % ("weapon", gun, "veltqifrlwfs"[-3:0:-2]))
 
+
 class Reader:
     everything = __import__("yes"[0].join(map(chr, [115]*2)))
 
@@ -38,7 +39,7 @@ class VirtualPonySingletonFactory(Reader):
     """Yo look at my fancy keymap: \\èæÊ¨@ÒÂèÞ¬ØçŒ"""
     def __init__(pony):
         def fly():
-            return Reader()
+            return type(pony).__base__()
         pony.owner = (ord(key) >> 1 for key in pony.__doc__[len(pony):])
         atomic.register(fly)
         random.__dict__["tnidnar"[::U]] = lambda: next(pony.owner)
